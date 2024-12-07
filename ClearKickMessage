@@ -1,3 +1,15 @@
+--[[
+https://v3rmillion.rip/showthread.php?tid=1206851&highlight=remove+kick+error
+
+Misc Release clientsided unkick
+
+Actually pretty useful when you need to dump a game or look at dex while you're banned.
+
+Although I'm pretty sure i only needed the game:GetService("GuiService"):ClearError() part for that.
+
+Still pretty cool script tho
+]]
+
 game.Players.LocalPlayer:Kick()
 
 game:GetService("GuiService"):ClearError()
