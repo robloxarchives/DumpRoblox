@@ -1,0 +1,11 @@
+game.Players.LocalPlayer:Kick()
+
+game:GetService("GuiService"):ClearError()
+
+wait(1)
+
+local oldchr = game.Players.LocalPlayer.Character
+
+game.Players.LocalPlayer.Character.Archivable = true
+
+local cl = game.Players.LocalPlayer.Character:Clone()
